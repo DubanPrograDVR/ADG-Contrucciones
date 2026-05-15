@@ -1,430 +1,805 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ADG Construcciones - Empresa de construcción y remodelaciones en Molina, Chile. Casas, remodelaciones, ampliaciones y más.">
-    <meta name="keywords" content="construcción, remodelaciones, Molina, Chile, casas, ADG, construcción de casas">
-    <title>ADG Construcciones | Construcción y Remodelaciones en Molina, Chile</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ADG Construcciones - Empresa de construcción y remodelaciones en Molina, Chile. Casas, remodelaciones, ampliaciones y más." />
+    <meta
+      name="keywords"
+      content="construcción, remodelaciones, Molina, Chile, casas, ADG, construcción de casas" />
+    <title>
+      ADG Construcciones | Construcción y Remodelaciones en Molina, Chile
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
     <!-- Navegación -->
     <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="#inicio" class="nav-logo">
-                <span class="logo-icon"><i class="fas fa-hard-hat"></i></span>
-                <span class="logo-text">ADG <span class="logo-accent">Construcciones</span></span>
-            </a>
-            <button class="nav-toggle" id="navToggle" aria-label="Menú de navegación">
-                <span class="hamburger"></span>
-            </button>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
-                <li><a href="#servicios" class="nav-link">Servicios</a></li>
-                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
-                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
-                <li><a href="#contacto" class="nav-link">Contacto</a></li>
-            </ul>
-        </div>
+      <div class="nav-container">
+        <a href="#inicio" class="nav-logo">
+          <span class="logo-icon"><i class="fas fa-hard-hat"></i></span>
+          <span class="logo-text"
+            >ADG <span class="logo-accent">Construcciones</span></span
+          >
+        </a>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Menú de navegación">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#maquinaria" class="nav-link">Maquinaria</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#galeria" class="nav-link">Galería</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero" id="inicio">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <div class="hero-badge">
-                <i class="fas fa-map-marker-alt"></i> Molina, Chile
-            </div>
-            <h1 class="hero-title">Construimos tus <span class="highlight">sueños</span> en cada ladrillo</h1>
-            <p class="hero-subtitle">Más de 10 años transformando hogares en Molina y toda la Región del Maule. Especialistas en construcción de casas, remodelaciones y ampliaciones.</p>
-            <div class="hero-cta">
-                <a href="https://wa.me/56912345678?text=Hola%20ADG%20Construcciones,%20me%20interesa%20cotizar%20un%20proyecto" target="_blank" class="btn btn-primary">
-                    <i class="fab fa-whatsapp"></i> Cotiza tu proyecto
-                </a>
-                <a href="#proyectos" class="btn btn-outline">Ver proyectos</a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat">
-                    <span class="stat-number" data-target="150">0</span>
-                    <span class="stat-label">Proyectos completados</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number" data-target="10">0</span>
-                    <span class="stat-label">Años de experiencia</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number" data-target="98">0</span>
-                    <span class="stat-label">% Clientes satisfechos</span>
-                </div>
-            </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-map-marker-alt"></i> Molina, Chile
         </div>
-        <a href="#servicios" class="scroll-down">
-            <span>Descubre más</span>
-            <i class="fas fa-chevron-down"></i>
-        </a>
+        <h1 class="hero-title">
+          Construimos tus <span class="highlight">sueños</span> en cada ladrillo
+        </h1>
+        <p class="hero-subtitle">
+          Más de 18 años transformando hogares en Molina y toda la Región del
+          Maule. Especialistas en construcción de casas, remodelaciones,
+          ampliaciones y arriendo de maquinaria.
+        </p>
+        <div class="hero-cta">
+          <a
+            href="https://wa.me/56956851935?text=Hola%20ADG%20Construcciones,%20me%20interesa%20cotizar%20un%20proyecto"
+            target="_blank"
+            class="btn btn-primary">
+            <i class="fab fa-whatsapp"></i> Cotiza tu proyecto
+          </a>
+          <a href="#proyectos" class="btn btn-outline">Ver proyectos</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number" data-target="150">0</span>
+            <span class="stat-label">Proyectos completados</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="18">0</span>
+            <span class="stat-label">Años de experiencia</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="98">0</span>
+            <span class="stat-label">% Clientes satisfechos</span>
+          </div>
+        </div>
+      </div>
+      <a href="#servicios" class="scroll-down">
+        <span>Descubre más</span>
+        <i class="fas fa-chevron-down"></i>
+      </a>
     </section>
 
     <!-- Servicios -->
     <section class="servicios" id="servicios">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Nuestros Servicios</span>
-                <h2 class="section-title">¿Qué hacemos por ti?</h2>
-                <p class="section-subtitle">Ofrecemos soluciones integrales en construcción, desde el diseño hasta la entrega final de tu proyecto.</p>
-            </div>
-            <div class="servicios-grid">
-                <div class="servicio-card">
-                    <div class="servicio-img">
-                        <img src="images/hero-bg.jpg" alt="Construcción de casas">
-                        <div class="servicio-icon">
-                            <i class="fas fa-home"></i>
-                        </div>
-                    </div>
-                    <div class="servicio-content">
-                        <h3>Construcción de Casas</h3>
-                        <p>Construimos tu casa desde los cimientos. Proyectos personalizados adaptados a tu terreno, presupuesto y necesidades familiares.</p>
-                        <a href="https://wa.me/56912345678?text=Hola,%20me%20interesa%20construir%20una%20casa" target="_blank" class="servicio-link">
-                            Cotizar <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="servicio-card">
-                    <div class="servicio-img">
-                        <img src="images/servicio-remo.jpg" alt="Remodelaciones">
-                        <div class="servicio-icon">
-                            <i class="fas fa-tools"></i>
-                        </div>
-                    </div>
-                    <div class="servicio-content">
-                        <h3>Remodelaciones</h3>
-                        <p>Renovamos cocinas, baños, dormitorios y espacios comunes. Moderniza tu hogar sin necesidad de mudarte.</p>
-                        <a href="https://wa.me/56912345678?text=Hola,%20me%20interesa%20remodelar%20mi%20casa" target="_blank" class="servicio-link">
-                            Cotizar <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="servicio-card">
-                    <div class="servicio-img">
-                        <img src="images/servicio-const.jpg" alt="Ampliaciones">
-                        <div class="servicio-icon">
-                            <i class="fas fa-plus-square"></i>
-                        </div>
-                    </div>
-                    <div class="servicio-content">
-                        <h3>Ampliaciones</h3>
-                        <p>Amplía tu hogar con habitaciones adicionales, terrazas, quinchos o segunda planta. Integramos la nueva estructura perfectamente.</p>
-                        <a href="https://wa.me/56912345678?text=Hola,%20me%20interesa%20ampliar%20mi%20casa" target="_blank" class="servicio-link">
-                            Cotizar <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="servicio-card">
-                    <div class="servicio-img">
-                        <img src="images/nosotros.jpg" alt="Instalaciones y reparaciones">
-                        <div class="servicio-icon">
-                            <i class="fas fa-wrench"></i>
-                        </div>
-                    </div>
-                    <div class="servicio-content">
-                        <h3>Instalaciones & Reparaciones</h3>
-                        <p>Electricidad, gasfitería, pintura, cerámicos y reparaciones generales. Mantenimiento preventivo y correctivo para tu propiedad.</p>
-                        <a href="https://wa.me/56912345678?text=Hola,%20necesito%20reparaciones%20en%20mi%20casa" target="_blank" class="servicio-link">
-                            Cotizar <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Nuestros Servicios</span>
+          <h2 class="section-title">¿Qué hacemos por ti?</h2>
+          <p class="section-subtitle">
+            Ofrecemos soluciones integrales en construcción, desde el diseño
+            hasta la entrega final de tu proyecto.
+          </p>
         </div>
+        <div class="servicios-grid">
+          <div class="servicio-card">
+            <div class="servicio-img">
+              <img src="images/Imagen-1.jpg" alt="Construcción de casas" />
+              <div class="servicio-icon">
+                <i class="fas fa-home"></i>
+              </div>
+            </div>
+            <div class="servicio-content">
+              <h3>Construcción de Casas</h3>
+              <p>
+                Construimos tu casa desde los cimientos. Proyectos
+                personalizados adaptados a tu terreno, presupuesto y necesidades
+                familiares.
+              </p>
+              <a
+                href="https://wa.me/56956851935?text=Hola,%20me%20interesa%20construir%20una%20casa"
+                target="_blank"
+                class="servicio-link">
+                Cotizar <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="servicio-card">
+            <div class="servicio-img">
+              <img src="images/Imagen-2.jpg" alt="Remodelaciones" />
+              <div class="servicio-icon">
+                <i class="fas fa-tools"></i>
+              </div>
+            </div>
+            <div class="servicio-content">
+              <h3>Remodelaciones</h3>
+              <p>
+                Renovamos cocinas, baños, dormitorios y espacios comunes.
+                Moderniza tu hogar sin necesidad de mudarte.
+              </p>
+              <a
+                href="https://wa.me/56956851935?text=Hola,%20me%20interesa%20remodelar%20mi%20casa"
+                target="_blank"
+                class="servicio-link">
+                Cotizar <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="servicio-card">
+            <div class="servicio-img">
+              <img src="images/Imagen-3.jpg" alt="Ampliaciones" />
+              <div class="servicio-icon">
+                <i class="fas fa-plus-square"></i>
+              </div>
+            </div>
+            <div class="servicio-content">
+              <h3>Ampliaciones</h3>
+              <p>
+                Amplía tu hogar con habitaciones adicionales, terrazas, quinchos
+                o segunda planta. Integramos la nueva estructura perfectamente.
+              </p>
+              <a
+                href="https://wa.me/56956851935?text=Hola,%20me%20interesa%20ampliar%20mi%20casa"
+                target="_blank"
+                class="servicio-link">
+                Cotizar <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="servicio-card">
+            <div class="servicio-img">
+              <img
+                src="images/Imagen-1.jpg"
+                alt="Instalaciones y reparaciones" />
+              <div class="servicio-icon">
+                <i class="fas fa-wrench"></i>
+              </div>
+            </div>
+            <div class="servicio-content">
+              <h3>Instalaciones & Reparaciones</h3>
+              <p>
+                Electricidad, gasfitería, pintura, cerámicos y reparaciones
+                generales. Mantenimiento preventivo y correctivo para tu
+                propiedad.
+              </p>
+              <a
+                href="https://wa.me/56956851935?text=Hola,%20necesito%20reparaciones%20en%20mi%20casa"
+                target="_blank"
+                class="servicio-link">
+                Cotizar <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Arriendo de Maquinaria -->
+    <section class="maquinaria" id="maquinaria">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Arriendo de Maquinaria</span>
+          <h2 class="section-title">Equipos profesionales para tu obra</h2>
+          <p class="section-subtitle">
+            Contamos con maquinaria y herramientas de construcción para arriendo
+            diario, semanal o mensual. Equipos en óptimas condiciones y
+            mantención al día.
+          </p>
+        </div>
+        <div class="maquinaria-grid">
+          <div class="maquinaria-card">
+            <div class="maquinaria-icon"><i class="fas fa-blender"></i></div>
+            <h3>Trompo Hormigonero</h3>
+            <p>
+              Mezcladoras de concreto de distintas capacidades para tu obra.
+            </p>
+          </div>
+          <div class="maquinaria-card">
+            <div class="maquinaria-icon">
+              <i class="fas fa-truck-monster"></i>
+            </div>
+            <h3>Compactadora</h3>
+            <p>Placas vibratorias y rodillos para compactación de suelos.</p>
+          </div>
+          <div class="maquinaria-card">
+            <div class="maquinaria-icon">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <h3>Andamios</h3>
+            <p>
+              Andamios certificados, seguros y de fácil armado para trabajos en
+              altura.
+            </p>
+          </div>
+          <div class="maquinaria-card">
+            <div class="maquinaria-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Cango / Demoledor</h3>
+            <p>Martillos demoledores eléctricos para picado y demolición.</p>
+          </div>
+          <div class="maquinaria-card">
+            <div class="maquinaria-icon"><i class="fas fa-cut"></i></div>
+            <h3>Tronzadora</h3>
+            <p>Sierras de corte para metales, perfiles y materiales duros.</p>
+          </div>
+          <div class="maquinaria-card">
+            <div class="maquinaria-icon">
+              <i class="fas fa-screwdriver-wrench"></i>
+            </div>
+            <h3>Engletadora</h3>
+            <p>Ingletadoras para cortes precisos en madera y aluminio.</p>
+          </div>
+          <div class="maquinaria-card">
+            <div class="maquinaria-icon"><i class="fas fa-binoculars"></i></div>
+            <h3>Equipos Topográficos</h3>
+            <p>Niveles ópticos, láser y estaciones para mediciones exactas.</p>
+          </div>
+          <div class="maquinaria-card">
+            <div class="maquinaria-icon">
+              <i class="fas fa-circle-notch"></i>
+            </div>
+            <h3>Galletero</h3>
+            <p>Esmeriles angulares para corte y desbaste de materiales.</p>
+          </div>
+        </div>
+        <div class="maquinaria-cta">
+          <p>¿Necesitas otra maquinaria? Tenemos mucho más disponible.</p>
+          <a
+            href="https://wa.me/56956851935?text=Hola,%20me%20interesa%20arrendar%20maquinaria"
+            target="_blank"
+            class="btn btn-primary">
+            <i class="fab fa-whatsapp"></i> Consultar disponibilidad
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- Nosotros -->
     <section class="nosotros" id="nosotros">
-        <div class="container">
-            <div class="nosotros-grid">
-                <div class="nosotros-img">
-                    <img src="images/nosotros.jpg" alt="Equipo ADG Construcciones trabajando">
-                    <div class="nosotros-experience">
-                        <span class="exp-number">10+</span>
-                        <span class="exp-text">años de<br>experiencia</span>
-                    </div>
-                </div>
-                <div class="nosotros-content">
-                    <div class="section-header left">
-                        <span class="section-badge">Quiénes Somos</span>
-                        <h2 class="section-title">Construyendo confianza en Molina desde 2014</h2>
-                    </div>
-                    <p class="nosotros-text">
-                        ADG Construcciones nació como un emprendimiento familiar con la misión de ofrecer servicios de construcción de calidad en Molina y la Región del Maule. Con el tiempo, nos hemos consolidado como una de las opciones preferidas por las familias locales.
-                    </p>
-                    <p class="nosotros-text">
-                        Nos especializamos en <strong>construcción de casas desde cero</strong>, <strong>remodelaciones integrales</strong> y <strong>ampliaciones</strong> de todo tipo. Nuestro equipo combina experiencia técnica con un trato cercano y personalizado.
-                    </p>
-                    <div class="nosotros-features">
-                        <div class="feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Presupuestos claros sin costos ocultos</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Materiales de primera calidad</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Cumplimiento de plazos garantizado</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Garantía post-entrega incluida</span>
-                        </div>
-                    </div>
-                    <a href="#contacto" class="btn btn-primary">Trabaja con nosotros</a>
-                </div>
+      <div class="container">
+        <div class="nosotros-grid">
+          <div class="nosotros-img">
+            <img
+              src="images/Imagen-1.jpg"
+              alt="Equipo ADG Construcciones trabajando" />
+            <div class="nosotros-experience">
+              <span class="exp-number">18+</span>
+              <span class="exp-text">años de<br />experiencia</span>
             </div>
+          </div>
+          <div class="nosotros-content">
+            <div class="section-header left">
+              <span class="section-badge">Quiénes Somos</span>
+              <h2 class="section-title">
+                Construyendo confianza en Molina desde 2007
+              </h2>
+            </div>
+            <p class="nosotros-text">
+              ADG Construcciones nació en 2007 como un emprendimiento familiar
+              con la misión de ofrecer servicios de construcción de calidad en
+              Molina y la Región del Maule. Con el tiempo, nos hemos consolidado
+              como una de las opciones preferidas por las familias locales.
+            </p>
+            <p class="nosotros-text">
+              Nos especializamos en
+              <strong>construcción de casas desde cero</strong>,
+              <strong>remodelaciones integrales</strong> y
+              <strong>ampliaciones</strong> de todo tipo. Nuestro equipo combina
+              experiencia técnica con un trato cercano y personalizado.
+            </p>
+            <div class="nosotros-features">
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Presupuestos claros sin costos ocultos</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Materiales de primera calidad</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Cumplimiento de plazos garantizado</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Garantía post-entrega incluida</span>
+              </div>
+            </div>
+            <a href="#contacto" class="btn btn-primary">Trabaja con nosotros</a>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Proyectos -->
     <section class="proyectos" id="proyectos">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge">Nuestro Trabajo</span>
-                <h2 class="section-title">Proyectos realizados</h2>
-                <p class="section-subtitle">Cada proyecto es una historia de esfuerzo, dedicación y satisfacción.</p>
-            </div>
-            <div class="proyectos-grid">
-                <div class="proyecto-card large">
-                    <img src="images/proyecto-1.jpg" alt="Casa en Los Maitenes">
-                    <div class="proyecto-overlay">
-                        <span class="proyecto-tag">Construcción</span>
-                        <h3>Casa Los Maitenes</h3>
-                        <p>Casa unifamiliar de 120m² con 3 dormitorios, 2 baños y quincho integrado.</p>
-                        <button class="proyecto-btn" onclick="openModal('Casa Los Maitenes', 'Construcción completa desde cimientos a terminaciones. Incluye instalaciones de gasfitería, electricidad, piso flotante, cocina equipada y terraza exterior con quincho.', 'images/proyecto-1.jpg')">
-                            <i class="fas fa-eye"></i> Ver detalles
-                        </button>
-                    </div>
-                </div>
-                <div class="proyecto-card">
-                    <img src="images/proyecto-2.jpg" alt="Remodelación Cocina">
-                    <div class="proyecto-overlay">
-                        <span class="proyecto-tag">Remodelación</span>
-                        <h3>Cocina Moderna</h3>
-                        <p>Remodelación integral de cocina con isla central.</p>
-                        <button class="proyecto-btn" onclick="openModal('Remodelación Cocina Moderna', 'Renovación completa con nuevos muebles a medida, encimera de cuarzo, instalación de iluminación LED, piso porcelanato y electrodomésticos integrados.', 'images/proyecto-2.jpg')">
-                            <i class="fas fa-eye"></i> Ver
-                        </button>
-                    </div>
-                </div>
-                <div class="proyecto-card">
-                    <img src="images/proyecto-3.jpg" alt="Baño remodelado">
-                    <div class="proyecto-overlay">
-                        <span class="proyecto-tag">Remodelación</span>
-                        <h3>Baño Principal</h3>
-                        <p>Remodelación de baño con diseño contemporáneo.</p>
-                        <button class="proyecto-btn" onclick="openModal('Remodelación Baño Principal', 'Cambio completo de cerámicos, instalación de ducha termo paneled, mueble flotante con doble lavamanos, iluminación ambiental y extractor de humedad.', 'images/proyecto-3.jpg')">
-                            <i class="fas fa-eye"></i> Ver
-                        </button>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Nuestro Trabajo</span>
+          <h2 class="section-title">Proyectos realizados</h2>
+          <p class="section-subtitle">
+            Cada proyecto es una historia de esfuerzo, dedicación y
+            satisfacción.
+          </p>
         </div>
+        <div class="proyectos-grid">
+          <div class="proyecto-card large">
+            <img src="images/Imagen-1.jpg" alt="Casa en Los Maitenes" />
+            <div class="proyecto-overlay">
+              <span class="proyecto-tag">Construcción</span>
+              <h3>Casa Los Maitenes</h3>
+              <p>
+                Casa unifamiliar de 120m² con 3 dormitorios, 2 baños y quincho
+                integrado.
+              </p>
+              <button
+                class="proyecto-btn"
+                onclick="
+                  openModal(
+                    'Casa Los Maitenes',
+                    'Construcción completa desde cimientos a terminaciones. Incluye instalaciones de gasfitería, electricidad, piso flotante, cocina equipada y terraza exterior con quincho.',
+                    'images/Imagen-1.jpg',
+                  )
+                ">
+                <i class="fas fa-eye"></i> Ver detalles
+              </button>
+            </div>
+          </div>
+          <div class="proyecto-card">
+            <img src="images/Imagen-2.jpg" alt="Remodelación Cocina" />
+            <div class="proyecto-overlay">
+              <span class="proyecto-tag">Remodelación</span>
+              <h3>Cocina Moderna</h3>
+              <p>Remodelación integral de cocina con isla central.</p>
+              <button
+                class="proyecto-btn"
+                onclick="
+                  openModal(
+                    'Remodelación Cocina Moderna',
+                    'Renovación completa con nuevos muebles a medida, encimera de cuarzo, instalación de iluminación LED, piso porcelanato y electrodomésticos integrados.',
+                    'images/Imagen-2.jpg',
+                  )
+                ">
+                <i class="fas fa-eye"></i> Ver
+              </button>
+            </div>
+          </div>
+          <div class="proyecto-card">
+            <img src="images/Imagen-3.jpg" alt="Baño remodelado" />
+            <div class="proyecto-overlay">
+              <span class="proyecto-tag">Remodelación</span>
+              <h3>Baño Principal</h3>
+              <p>Remodelación de baño con diseño contemporáneo.</p>
+              <button
+                class="proyecto-btn"
+                onclick="
+                  openModal(
+                    'Remodelación Baño Principal',
+                    'Cambio completo de cerámicos, instalación de ducha termo paneled, mueble flotante con doble lavamanos, iluminación ambiental y extractor de humedad.',
+                    'images/Imagen-3.jpg',
+                  )
+                ">
+                <i class="fas fa-eye"></i> Ver
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería Carrusel -->
+    <section class="galeria" id="galeria">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Galería</span>
+          <h2 class="section-title">Trabajos en imagen</h2>
+          <p class="section-subtitle">
+            Un recorrido visual por algunos de nuestros proyectos más recientes.
+          </p>
+        </div>
+      </div>
+      <div class="galeria-track-wrapper">
+        <div class="galeria-track">
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-1.jpg"
+              alt="Trabajo realizado 1"
+              loading="lazy" />
+          </div>
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-2.jpg"
+              alt="Trabajo realizado 2"
+              loading="lazy" />
+          </div>
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-3.jpg"
+              alt="Trabajo realizado 3"
+              loading="lazy" />
+          </div>
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-4.jpg"
+              alt="Trabajo realizado 4"
+              loading="lazy" />
+          </div>
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-5.jpg"
+              alt="Trabajo realizado 5"
+              loading="lazy" />
+          </div>
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-6.jpg"
+              alt="Trabajo realizado 6"
+              loading="lazy" />
+          </div>
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-7.jpg"
+              alt="Trabajo realizado 7"
+              loading="lazy" />
+          </div>
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-8.jpg"
+              alt="Trabajo realizado 8"
+              loading="lazy" />
+          </div>
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-9.jpg"
+              alt="Trabajo realizado 9"
+              loading="lazy" />
+          </div>
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-10.jpg"
+              alt="Trabajo realizado 10"
+              loading="lazy" />
+          </div>
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-11.jpg"
+              alt="Trabajo realizado 11"
+              loading="lazy" />
+          </div>
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-12.jpg"
+              alt="Trabajo realizado 12"
+              loading="lazy" />
+          </div>
+          <div class="galeria-item">
+            <img
+              src="images/Imagen-13.jpg"
+              alt="Trabajo realizado 13"
+              loading="lazy" />
+          </div>
+          <!-- Duplicados para loop infinito -->
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-1.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-2.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-3.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-4.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-5.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-6.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-7.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-8.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-9.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-10.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-11.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-12.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="galeria-item" aria-hidden="true">
+            <img src="images/Imagen-13.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contacto -->
     <section class="contacto" id="contacto">
-        <div class="container">
-            <div class="contacto-grid">
-                <div class="contacto-info">
-                    <div class="section-header left">
-                        <span class="section-badge">Contacto</span>
-                        <h2 class="section-title">Hablemos de tu proyecto</h2>
-                    </div>
-                    <p class="contacto-text">¿Tienes una idea? Nosotros la hacemos realidad. Contáctanos y te enviaremos un presupuesto sin compromiso.</p>
-                    
-                    <div class="contacto-items">
-                        <div class="contacto-item">
-                            <div class="contacto-icon">
-                                <i class="fab fa-whatsapp"></i>
-                            </div>
-                            <div class="contacto-detail">
-                                <span class="contacto-label">WhatsApp</span>
-                                <a href="https://wa.me/56912345678" target="_blank">+56 9 1234 5678</a>
-                            </div>
-                        </div>
-                        <div class="contacto-item">
-                            <div class="contacto-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contacto-detail">
-                                <span class="contacto-label">Correo</span>
-                                <a href="mailto:contacto@adgconstrucciones.cl">contacto@adgconstrucciones.cl</a>
-                            </div>
-                        </div>
-                        <div class="contacto-item">
-                            <div class="contacto-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="contacto-detail">
-                                <span class="contacto-label">Ubicación</span>
-                                <span>Molina, Región del Maule, Chile</span>
-                            </div>
-                        </div>
-                        <div class="contacto-item">
-                            <div class="contacto-icon">
-                                <i class="fas fa-clock"></i>
-                            </div>
-                            <div class="contacto-detail">
-                                <span class="contacto-label">Horario</span>
-                                <span>Lun - Vie: 8:00 - 18:00 hrs</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="contacto-social">
-                        <span>Síguenos:</span>
-                        <a href="https://www.facebook.com/profile.php?id=100063529612109" target="_blank" class="social-link facebook" aria-label="Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://wa.me/56912345678" target="_blank" class="social-link whatsapp" aria-label="WhatsApp">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="#" class="social-link instagram" aria-label="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="contacto-form-wrapper">
-                    <form class="contacto-form" id="contactForm" novalidate>
-                        <h3>Envíanos un mensaje</h3>
-                        <div class="form-group">
-                            <label for="nombre">Nombre completo</label>
-                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-                            <span class="form-error">Por favor ingresa tu nombre</span>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="email">Correo electrónico</label>
-                                <input type="email" id="email" name="email" placeholder="tu@correo.cl" required>
-                                <span class="form-error">Ingresa un correo válido</span>
-                            </div>
-                            <div class="form-group">
-                                <label for="telefono">Teléfono</label>
-                                <input type="tel" id="telefono" name="telefono" placeholder="+56 9 1234 5678">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="tipo">Tipo de proyecto</label>
-                            <select id="tipo" name="tipo" required>
-                                <option value="">Selecciona una opción</option>
-                                <option value="casa">Construcción de casa</option>
-                                <option value="remodelacion">Remodelación</option>
-                                <option value="ampliacion">Ampliación</option>
-                                <option value="reparacion">Reparaciones</option>
-                                <option value="otro">Otro</option>
-                            </select>
-                            <span class="form-error">Selecciona un tipo de proyecto</span>
-                        </div>
-                        <div class="form-group">
-                            <label for="mensaje">Cuéntanos tu proyecto</label>
-                            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Describe lo que necesitas..." required></textarea>
-                            <span class="form-error">Cuéntanos más sobre tu proyecto</span>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-full">
-                            <i class="fas fa-paper-plane"></i> Enviar mensaje
-                        </button>
-                        <p class="form-note">Te responderemos en menos de 24 horas por WhatsApp o correo.</p>
-                    </form>
-                </div>
+      <div class="container">
+        <div class="contacto-grid">
+          <div class="contacto-info">
+            <div class="section-header left">
+              <span class="section-badge">Contacto</span>
+              <h2 class="section-title">Hablemos de tu proyecto</h2>
             </div>
+            <p class="contacto-text">
+              ¿Tienes una idea? Nosotros la hacemos realidad. Contáctanos y te
+              enviaremos un presupuesto sin compromiso.
+            </p>
+
+            <div class="contacto-items">
+              <div class="contacto-item">
+                <div class="contacto-icon">
+                  <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="contacto-detail">
+                  <span class="contacto-label">WhatsApp</span>
+                  <a href="https://wa.me/56956851935" target="_blank"
+                    >+56 9 5685 1935</a
+                  >
+                </div>
+              </div>
+              <div class="contacto-item">
+                <div class="contacto-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contacto-detail">
+                  <span class="contacto-label">Correo</span>
+                  <a href="mailto:contacto@adgconstrucciones.cl"
+                    >contacto@adgconstrucciones.cl</a
+                  >
+                </div>
+              </div>
+              <div class="contacto-item">
+                <div class="contacto-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contacto-detail">
+                  <span class="contacto-label">Ubicación</span>
+                  <span>Molina, Región del Maule, Chile</span>
+                </div>
+              </div>
+              <div class="contacto-item">
+                <div class="contacto-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contacto-detail">
+                  <span class="contacto-label">Horario</span>
+                  <span>Lun - Vie: 8:00 - 18:00 hrs</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contacto-social">
+              <span>Síguenos:</span>
+              <a
+                href="https://www.facebook.com/profile.php?id=100063529612109"
+                target="_blank"
+                class="social-link facebook"
+                aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://wa.me/56956851935"
+                target="_blank"
+                class="social-link whatsapp"
+                aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="#" class="social-link instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contacto-form-wrapper">
+            <form class="contacto-form" id="contactForm" novalidate>
+              <h3>Envíanos un mensaje</h3>
+              <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Tu nombre"
+                  required />
+                <span class="form-error">Por favor ingresa tu nombre</span>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Correo electrónico</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="tu@correo.cl"
+                    required />
+                  <span class="form-error">Ingresa un correo válido</span>
+                </div>
+                <div class="form-group">
+                  <label for="telefono">Teléfono</label>
+                  <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    placeholder="+56 9 1234 5678" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="tipo">Tipo de proyecto</label>
+                <select id="tipo" name="tipo" required>
+                  <option value="">Selecciona una opción</option>
+                  <option value="casa">Construcción de casa</option>
+                  <option value="remodelacion">Remodelación</option>
+                  <option value="ampliacion">Ampliación</option>
+                  <option value="reparacion">Reparaciones</option>
+                  <option value="otro">Otro</option>
+                </select>
+                <span class="form-error">Selecciona un tipo de proyecto</span>
+              </div>
+              <div class="form-group">
+                <label for="mensaje">Cuéntanos tu proyecto</label>
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  rows="4"
+                  placeholder="Describe lo que necesitas..."
+                  required></textarea>
+                <span class="form-error">Cuéntanos más sobre tu proyecto</span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                <i class="fas fa-paper-plane"></i> Enviar mensaje
+              </button>
+              <p class="form-note">
+                Te responderemos en menos de 24 horas por WhatsApp o correo.
+              </p>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a href="#inicio" class="footer-logo">
-                        <i class="fas fa-hard-hat"></i>
-                        <span>ADG <span>Construcciones</span></span>
-                    </a>
-                    <p>Construcciones y remodelaciones en general. Molina, Chile. Calidad, compromiso y confianza en cada proyecto.</p>
-                    <div class="footer-social">
-                        <a href="https://www.facebook.com/profile.php?id=100063529612109" target="_blank" aria-label="Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://wa.me/56912345678" target="_blank" aria-label="WhatsApp">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="#" aria-label="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <h4>Enlaces rápidos</h4>
-                    <ul>
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="#nosotros">Nosotros</a></li>
-                        <li><a href="#proyectos">Proyectos</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Servicios</h4>
-                    <ul>
-                        <li><a href="#servicios">Construcción de casas</a></li>
-                        <li><a href="#servicios">Remodelaciones</a></li>
-                        <li><a href="#servicios">Ampliaciones</a></li>
-                        <li><a href="#servicios">Reparaciones</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h4>Contacto</h4>
-                    <p><i class="fas fa-map-marker-alt"></i> Molina, Región del Maule, Chile</p>
-                    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/56912345678">+56 9 1234 5678</a></p>
-                    <p><i class="fas fa-envelope"></i> <a href="mailto:contacto@adgconstrucciones.cl">contacto@adgconstrucciones.cl</a></p>
-                </div>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#inicio" class="footer-logo">
+              <i class="fas fa-hard-hat"></i>
+              <span>ADG <span>Construcciones</span></span>
+            </a>
+            <p>
+              Construcciones y remodelaciones en general. Molina, Chile.
+              Calidad, compromiso y confianza en cada proyecto.
+            </p>
+            <div class="footer-social">
+              <a
+                href="https://www.facebook.com/profile.php?id=100063529612109"
+                target="_blank"
+                aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://wa.me/56956851935"
+                target="_blank"
+                aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="#" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 ADG Construcciones. Todos los derechos reservados.</p>
-                <p class="footer-credit">Diseñado con <i class="fas fa-heart"></i> para construir sueños</p>
-            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Enlaces rápidos</h4>
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#nosotros">Nosotros</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Servicios</h4>
+            <ul>
+              <li><a href="#servicios">Construcción de casas</a></li>
+              <li><a href="#servicios">Remodelaciones</a></li>
+              <li><a href="#servicios">Ampliaciones</a></li>
+              <li><a href="#servicios">Reparaciones</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contacto</h4>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Molina, Región del Maule,
+              Chile
+            </p>
+            <p>
+              <i class="fab fa-whatsapp"></i>
+              <a href="https://wa.me/56956851935">+56 9 5685 1935</a>
+            </p>
+            <p>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:contacto@adgconstrucciones.cl"
+                >AndresVasquez.ino@gmail.com</a
+              >
+            </p>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 ADG Construcciones. Todos los derechos reservados.</p>
+          <p class="footer-credit">
+            Diseñado con <i class="fas fa-heart"></i> para construir sueños
+          </p>
+        </div>
+      </div>
     </footer>
 
     <!-- Botón WhatsApp Flotante -->
-    <a href="https://wa.me/56912345678?text=Hola%20ADG%20Construcciones,%20me%20interesa%20cotizar%20un%20proyecto" target="_blank" class="whatsapp-float" aria-label="Contáctanos por WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-        <span class="whatsapp-tooltip">¡Escríbenos!</span>
+    <a
+      href="https://wa.me/56956851935?text=Hola%20ADG%20Construcciones,%20me%20interesa%20cotizar%20un%20proyecto"
+      target="_blank"
+      class="whatsapp-float"
+      aria-label="Contáctanos por WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+      <span class="whatsapp-tooltip">¡Escríbenos!</span>
     </a>
 
     <!-- Modal de Proyectos -->
     <div class="modal" id="proyectoModal">
-        <div class="modal-content">
-            <button class="modal-close" onclick="closeModal()">&times;</button>
-            <img src="" alt="" class="modal-img" id="modalImg">
-            <div class="modal-body">
-                <h3 id="modalTitle"></h3>
-                <p id="modalDesc"></p>
-                <a href="https://wa.me/56912345678?text=Hola,%20me%20interesa%20un%20proyecto%20similar" target="_blank" class="btn btn-primary">
-                    <i class="fab fa-whatsapp"></i> Quiero algo similar
-                </a>
-            </div>
+      <div class="modal-content">
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+        <img src="" alt="" class="modal-img" id="modalImg" />
+        <div class="modal-body">
+          <h3 id="modalTitle"></h3>
+          <p id="modalDesc"></p>
+          <a
+            href="https://wa.me/56956851935?text=Hola,%20me%20interesa%20un%20proyecto%20similar"
+            target="_blank"
+            class="btn btn-primary">
+            <i class="fab fa-whatsapp"></i> Quiero algo similar
+          </a>
         </div>
+      </div>
     </div>
 
     <!-- Notificación -->
     <div class="notification" id="notification">
-        <i class="fas fa-check-circle"></i>
-        <span id="notificationText">Mensaje enviado correctamente</span>
+      <i class="fas fa-check-circle"></i>
+      <span id="notificationText">Mensaje enviado correctamente</span>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
